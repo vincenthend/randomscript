@@ -42,7 +42,7 @@ function styleClock(element){
 	element.parentNode.parentNode.style="width:100%";
 	
 	var textarea = document.createElement("textarea");
-	textarea.style="font-size:1.2rem; width:100%;";
+	textarea.style="font-size:2rem; width:100%;";
 	element.childNodes[1].appendChild(textarea);
 }
 
