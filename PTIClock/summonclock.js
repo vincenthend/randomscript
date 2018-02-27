@@ -60,6 +60,7 @@ function addCountdown(endTime){
 		var timeLeftBlock = document.createElement("div");
 		timeLeftBlock.id = "timeLeft";
 		timeBlock.parentNode.appendChild(timeLeftBlock);
+		timeLeftBlock.setAttribute('style','text-align:center; font-size:2rem;');
 		setInterval(function(){updateCountdown(timeLeft);timeLeft--;},1000);
 	}	
 }
